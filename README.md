@@ -1,22 +1,22 @@
 # imgToText
-# 🪪 ID Card OCR Extraction using Tesseract and OpenCV
+#  ID Card OCR Extraction using Tesseract and OpenCV
 
 This project implements an end-to-end Optical Character Recognition (OCR) pipeline for extracting structured text data from ID cards using Python, OpenCV, Tesseract, and Pandas.
 
 ---
 
-## 📌 Features
+##  Features
 
-- ✅ Image preprocessing using grayscale conversion and thresholding (`cv2.THRESH_TRUNC`)
-- ✅ Text extraction using Tesseract (`pytesseract.image_to_data` & `image_to_string`)
-- ✅ Confidence-based text filtering and bounding box visualization
-- ✅ Output structured as a Pandas DataFrame with word positions and confidence scores
-- ✅ Character-level accuracy evaluation using Levenshtein distance
-- ✅ Ready for analyzing scanned IDs, student cards, and structured documents
+-  Image preprocessing using grayscale conversion and thresholding (`cv2.THRESH_TRUNC`)
+-  Text extraction using Tesseract (`pytesseract.image_to_data` & `image_to_string`)
+-  Confidence-based text filtering and bounding box visualization
+-  Output structured as a Pandas DataFrame with word positions and confidence scores
+-  Character-level accuracy evaluation using Levenshtein distance
+-  Ready for analyzing scanned IDs, student cards, and structured documents
 
 ---
 
-## 🧠 Example Workflow
+##  Example Workflow
 
 ```python
 img = cv2.imread("id.jpg")
